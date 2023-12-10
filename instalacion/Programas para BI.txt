@@ -1,0 +1,6 @@
+1. SQL Server 2019
+2- SSMS
+3- SQL Server Reporting Services 
+4- Visual Studio 2019 
+5- Extensión Integration Services
+6- Power Bi
