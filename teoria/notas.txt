@@ -1,0 +1,50 @@
+Qué es un Data Warehouse?
+Un Data Warehouse es un sistema de almacenamiento de datos centralizado diseñado para recopilar, organizar y mantener información relevante para una empresa. 
+
+La característica distintiva de un Data Warehouse es su capacidad para proporcionar acceso rápido y eficiente a los datos almacenados, 
+lo que facilita la generación de informes y análisis detallados. 
+Los datos en un Data Warehouse se organizan en función de temas clave de interés empresarial, lo que simplifica la obtención de información relevante.
+Para mantener la coherencia y la calidad de los datos, se emplea un proceso conocido como ETL (Extracción, Transformación y Carga) para extraer datos de diversas 
+fuentes, transformarlos en un formato común y cargarlos en el Data Warehouse. Esto asegura que los datos sean precisos y estén listos para su análisis.
+En resumen, un Data Warehouse es una herramienta fundamental en la gestión de la información empresarial, ya que permite a las organizaciones almacenar, acceder y 
+analizar sus datos de manera efectiva, lo que facilita la toma de decisiones basadas en información sólida.
+
+QUÉ ES ADO.NET Y OLEDB?
+ADO.NET y OLEDB son tecnologías de acceso a datos que permiten a las aplicaciones interactuar con bases de datos y otras fuentes de datos. ADO.NET es más moderno 
+y se utiliza comúnmente en aplicaciones .NET, mientras que OLEDB es una tecnología más antigua que ha sido reemplazada en gran medida por enfoques más modernos 
+en aplicaciones recientes.
+
+OLAP
+(Procesamiento Analitico en Linea)
+El cubo OLAP es una estructura de datos utilizada para organizar los datos dentro del Data Warehouse de una manera que facilite el análisis multidimensional. 
+Los datos se almacenan en forma de cubos, donde cada dimensión del cubo representa un aspecto de los datos, como el tiempo, los productos, las regiones, etc. 
+Esto permite a los usuarios explorar los datos desde múltiples perspectivas.
+
+Tabla de Hechos (Fact Table): 
+La tabla de hechos es el componente central de un modelo de datos multidimensional. Contiene medidas cuantitativas o métricas clave 
+que se quieren analizar, como ventas, ingresos, cantidad de productos vendidos, etc. La tabla de hechos también incluye claves externas que la relacionan con las 
+tablas de dimensiones.
+
+Tabla de Dimensiones (Dimension Table): Las tablas de dimensiones contienen información descriptiva y atributos que proporcionan 
+contexto a los datos en la tabla de hechos. 
+
+Tipos de Dimensiones
+- Dimension Calendario: Se utiliza para el analisis de datos de tipo fecha, como: dia, mes, año, semana.
+- Dimension Rol Multiple: Consiste en utilizar una dimension para el analisis de distintos roles. Por ejemplo: a partir de la tabla Tiempo podemos obtener fecha de
+envio, de pago y venta. Todo esto utiliza una misma tabla
+- Dimension Snowflake: Se refiere a una dimension que fue normalizada al dividirla en distintas tablas.
+
+Tipos de Tablas de Hechos.
+
+- Tabla de Hechos Transaccional (Transactional Fact Table):
+        Una tabla de hechos transaccional se utiliza para rastrear eventos y transacciones individuales en un Data Warehouse.
+        Cada fila en esta tabla representa una transacción individual y contiene información detallada sobre un evento específico, como una venta, una transacción 
+	financiera o una interacción de usuario.
+        Este tipo de tabla de hechos se utiliza cuando es importante mantener un alto nivel de detalle en los datos y cuando se necesita un seguimiento específico 
+	de las transacciones individuales. Sin embargo, puede resultar en un gran volumen de datos y, a menudo, requiere un diseño más complejo.
+- Tabla de Hechos Snapshot Periódicos
+	En una tabla de hechos de snapshot periódico, los datos se capturan en momentos específicos en el tiempo, generalmente a intervalos regulares, como diarios, 
+	semanales o mensuales.
+	Cada fila de la tabla de hechos contiene datos resumidos o agregados para un período de tiempo en particular.
+	Este enfoque es útil cuando se desea analizar tendencias y cambios a lo largo del tiempo, pero no es necesario un nivel de detalle completo de las transacciones 
+	individuales. Ayuda a reducir el volumen de datos y simplifica el diseño del Data Warehouse.	
