@@ -1,0 +1,1 @@
+el archivo general.sql es para verificar que este funcionando todo correctamente
