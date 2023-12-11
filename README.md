@@ -1,15 +1,18 @@
 # Sistema Gestor de Ventas
 
 ## Tabla de Contenido
-1. [INTRODUCCIÓN](#1-introducción)
-   * 1.1 [PROBLEMÁTICA](#11-problemática)
-   * 1.2 [SOLUCIÓN](#12-solución)
+1. [Introducción](#1-introducción)
+   * 1.1 [Problemática](#11-problemática)
+   * 1.2 [Solución](#12-solución)
 
-2. [MODELADO DE DATOS](#2-modelado-de-datos)
-   * 2.1 [ANÁLISIS DE REQUERIMIENTOS](#21-análisis-de-requerimientos)
-   * 2.2 [MODELO ENTIDAD RELACIÓN](#22-modelo-entidad-relación)
-   * 2.3 [MODELO RELACIONAL](#23-modelo-relacional)
-   * 2.4 [NORMALIZACIÓN](#24-normalización)
+2. [Modelado de Datos](#2-modelado-de-datos)
+   * 2.1 [Análisis de Requerimientos](#21-análisis-de-requerimientos)
+   * 2.2 [Modelo Entidad Relación](#22-modelo-entidad-relación)
+   * 2.3 [Normalización](#23-normalización)
+   * 2.4 [Modelo Relacional](#24-modelo-relacional)
+
+3. [Conclusión](#3-conclusión)
+
 
 ## 0. ANTES DE CONTINUAR
 
