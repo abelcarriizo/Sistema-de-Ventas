@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="QWERTY.DB_VentasDW"
+  DTS:DTSID="{AF028BF3-9018-4221-9640-6BCF51ADC2DD}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=QWERTY;Initial Catalog=DB_VentasDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ETL-{AF028BF3-9018-4221-9640-6BCF51ADC2DD}QWERTY.DB_VentasDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
