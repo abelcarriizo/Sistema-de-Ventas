@@ -1,0 +1,5 @@
+CREATE TABLE D_Productos (
+    ID_Producto INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+	Categoria VARCHAR(100) NOT NULL
+);
